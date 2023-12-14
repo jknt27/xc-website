@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import { basePath } from '../../../../next.config'
 
 export default function AuNhi() {
     return (
@@ -8,7 +9,7 @@ export default function AuNhi() {
             <div className='flex-wrap text-center justify-center pt-8'>
             <Image
                 className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70]"
-                src="/images/NS/NS-1.jpeg"
+                src={`${basePath}/images/NS/NS-1.jpeg`}
                 alt="Xavie Can NS"
                 width={1920}
                 height={1080}

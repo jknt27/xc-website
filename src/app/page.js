@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import Link from 'next/link'
+import { basePath } from '../../next.config'
 
 export default function Home() {
   return (
@@ -8,7 +8,7 @@ export default function Home() {
           <div className='flex-wrap text-center justify-center'>
           <Image
               className=""
-              src="/images/xclogo.png"
+              src={`${basePath}/images/xclogo.png`}
               alt="Xavie Can Logo"
               width={200}
               height={200}
@@ -23,9 +23,9 @@ export default function Home() {
           <h3 className=''>Vietnamese Eucharistic Youth Movement in the USA</h3>
       </div>
       <div className='flex flex-wrap justify-center pt-5'>
-        <Image src='/images/Doan/XC-1.jpeg' alt='Doan Xavie Can' width={1920} height={1080} unoptimized={true}></Image>
-        <Image src='/images/Doan/XC-2.jpg' alt='Doan Xavie Can' width={1920} height={1080} unoptimized={true}></Image>
-        <Image src='/images/Doan/XC-3.jpeg' alt='Doan Xavie Can' width={1920} height={1080} unoptimized={true}></Image>
+        <Image src={`${basePath}/images/Doan/XC-1.jpeg`} alt='Doan Xavie Can' width={1920} height={1080} unoptimized={true}></Image>
+        <Image src={`${basePath}/images/Doan/XC-2.jpg`} alt='Doan Xavie Can' width={1920} height={1080} unoptimized={true}></Image>
+        <Image src={`${basePath}/images/Doan/XC-3.jpeg`} alt='Doan Xavie Can' width={1920} height={1080} unoptimized={true}></Image>
       </div>
     </main>
   )

@@ -2,6 +2,7 @@
 import Link from 'next/link';
 import { useState } from 'react';
 import Image from 'next/image';
+import { basePath } from '../../../next.config';
 
 export default function NavBar(props) {
     const [nganhDropdownStatus, setNganhDropdown] = useState(false);
@@ -15,7 +16,7 @@ export default function NavBar(props) {
     <div className='flex items-center justify-between'>
         <div className='flex items-center'>
             <Link href={'/'}>
-                <Image src={'/images/xclogo.png'} width={75} height={75} alt='Doan Xavie Can Logo' />
+                <Image src={`${basePath}/images/xclogo.png`} width={75} height={75} alt='Doan Xavie Can Logo' />
             </Link>
         </div>
         <ul className='flex justify-end'>
