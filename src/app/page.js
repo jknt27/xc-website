@@ -23,7 +23,7 @@ export default function Home() {
           <h3 className=''>Vietnamese Eucharistic Youth Movement in the USA</h3>
       </div>
       <div className='flex flex-wrap justify-center pt-5'>
-        <Image src='/images/Doan/XC-1.jpeg' alt='Doan Xavie Can' width={1080} height={720} unoptimized={true}></Image>
+        <Image src='/images/Doan/XC-1.jpeg' alt='Doan Xavie Can' width={1920} height={1080} unoptimized={true}></Image>
         <Image src='/images/Doan/XC-2.jpg' alt='Doan Xavie Can' width={1920} height={1080} unoptimized={true}></Image>
         <Image src='/images/Doan/XC-3.jpeg' alt='Doan Xavie Can' width={1920} height={1080} unoptimized={true}></Image>
       </div>

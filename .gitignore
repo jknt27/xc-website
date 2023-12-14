@@ -131,3 +131,6 @@ dist
 
 # MacOS Finder File
 .DS_STORE
+
+/out/
+/dist/
