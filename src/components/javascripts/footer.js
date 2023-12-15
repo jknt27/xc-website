@@ -13,7 +13,7 @@ export default function Footer() {
         <div className='mb-2'>
           <h3 className='text-lg font-bold mb-2'>Connect With Us</h3>
           <a href='https://www.facebook.com/Xaviecan'><FontAwesomeIcon icon={faFacebook} size="2x" /></a>
-          <a href='https://www.instagram.com/xaviecan' className='mr-5 ml-5'><FontAwesomeIcon icon={faInstagram} size="2x" /></a>
+          <a href='https://www.instagram.com/tnttxaviecan/' className='mr-5 ml-5'><FontAwesomeIcon icon={faInstagram} size="2x" /></a>
           <a href='http://www.youtube.com/@xaviecan'><FontAwesomeIcon icon={faYoutube} size="2x" /></a>
         </div>
         <p>&copy; 2023 Xavie Can. All rights reserved.</p>

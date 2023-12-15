@@ -22,10 +22,10 @@ export default function Home() {
           <h3 className=''>Ignatius of Loyola League of Chapters</h3>
           <h3 className=''>Vietnamese Eucharistic Youth Movement in the USA</h3>
       </div>
-      <div className='flex flex-wrap justify-center pt-5'>
-        <Image src={`${basePath}/images/Doan/XC-1.jpeg`} alt='Doan Xavie Can' width={1920} height={1080} unoptimized={true}></Image>
-        <Image src={`${basePath}/images/Doan/XC-2.jpg`} alt='Doan Xavie Can' width={1920} height={1080} unoptimized={true}></Image>
-        <Image src={`${basePath}/images/Doan/XC-3.jpeg`} alt='Doan Xavie Can' width={1920} height={1080} unoptimized={true}></Image>
+      <div className='flex flex-wrap justify-center'>
+        <Image src={`${basePath}/images/Doan/XC-1.jpeg`} alt='Doan Xavie Can' width={1920} height={1080} unoptimized={true} className='pt-5 md:pt-10'></Image>
+        <Image src={`${basePath}/images/Doan/XC-2.jpg`} alt='Doan Xavie Can' width={1920} height={1080} unoptimized={true} className='pt-5 md:pt-10'></Image>
+        <Image src={`${basePath}/images/Doan/XC-3.jpeg`} alt='Doan Xavie Can' width={1920} height={1080} unoptimized={true} className='pt-5 md:pt-10'></Image>
       </div>
     </main>
   )

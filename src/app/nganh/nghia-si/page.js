@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import { basePath } from '../../../../next.config'
 
-export default function AuNhi() {
+export default function NghiaSi() {
     return (
         <div className="flex flex-col items-center justify-center pt-8 pb-8 min-h-full">
             <h1 className='font-bold'>Nghĩa Sĩ</h1>
